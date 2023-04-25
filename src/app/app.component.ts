@@ -13,7 +13,7 @@ export class AppComponent {
     arrayDeTarefas: Tarefa[] = [];
     apiURL : string;
     constructor(private http: HttpClient) {
-        this.apiURL = 'https://todoapp-api-ten.vercel.app'
+        this.apiURL = 'https://fron-tapp-git-main-joaocaju1.vercel.app/'
 ;
         this.READ_tarefas();
     }
